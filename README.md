@@ -57,7 +57,7 @@ In the output format, each road is an edge and each intersection is a node. An a
 Since the data for cities can be very large (for example, New York is nearly 18 MB), loading the data needed to be done on-demand. Progress callbacks were used to track the status of a download request
 ```typescript
 const { data: jsonData } = await axios.get(
-      `https://pathfinding.kelvinzhang.ca/data/${file}`,
+      `https://pathfinding.ca/data/${file}`,
       {
         onDownloadProgress: (progressEvent) => {
           const percentage = Math.round(
