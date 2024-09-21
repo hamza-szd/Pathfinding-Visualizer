@@ -1,7 +1,5 @@
 <h1>Pathfinding Visualizer</h1>
 
-## [Try it out](https://pathfinding.kelvinzhang.ca/)
-
 ![image](demo.gif)
 
 This is a pathfinding visualizer that I made while learning common pathfinding algorithms like Dijkstra's, A*, and Greedy Best First Search. Below you can find some design decisions that went into making this project.
